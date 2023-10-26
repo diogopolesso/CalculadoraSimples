@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Calculadora Simples</h1>
+    <form action="/calculate" method="post">
+        <input type="text" name="expression" id="expression" autofocus>
+        <br>
+        <input type="submit" value="Calcular">
+    </form>
+    <p>Resultado: {{ result }}</p>
+</body>
+</html>
